@@ -1,2 +1,2 @@
 # samhindley
-My personal website and online CVsamhindley.com
+My personal website and online CV.
