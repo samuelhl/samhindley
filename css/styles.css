@@ -89,10 +89,6 @@ html, body {
     color: #009688;
 }
 
-img.social {
-    margin: 0.25vw;
-}
-
 img.social:hover {
     opacity: 0.84;
 }
@@ -124,10 +120,6 @@ i.large {
 
 figure {
     text-align: center;
-}
-
-.skill {
-    height: 56px;
 }
 
 .skill .progress {
