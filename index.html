@@ -326,7 +326,7 @@
 
         <footer class="footer">
                 <p>The content of this website is under the <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a></p>
-                <p>Powered by an <a href="https://httpd.apache.org/">Apache 2 Web Server</a> on a <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/" target="_blank">Raspberry Pi 3</a></p>
+                <p>Powered by <a href="https://firebase.google.com" target="_blank">Firebase</a></p>
                 <p>Built with <a href="http://fezvrasta.github.io/bootstrap-material-design/" target="_blank">Material Design for Bootstrap</a></p>
         </footer>
 
@@ -392,6 +392,19 @@
 
             ga('create', 'UA-69256242-1', 'auto');
             ga('send', 'pageview');
+        </script>
+
+        <!-- Firebase -->
+        <script src="https://www.gstatic.com/firebasejs/3.6.8/firebase.js"></script>
+        <script>
+            var config = {
+                apiKey: "AIzaSyB-YD1cTh9Ckh_ssLECefQ60FAJfvT4YzA",
+                authDomain: "samhindley-45056.firebaseapp.com",
+                databaseURL: "https://samhindley-45056.firebaseio.com",
+                storageBucket: "samhindley-45056.appspot.com",
+                messagingSenderId: "1049230791224"
+            };
+            firebase.initializeApp(config);
         </script>
 
     </body>
